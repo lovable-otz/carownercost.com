@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Lease Calculator: Payment From Money Factor</title>
+<meta name="description" content="Calculate a lease payment from the price, residual value and money factor (or APR), split into depreciation and rent charges.">
+<link rel="canonical" href="https://carownercost.com/car-lease-calculator/">
+<meta property="og:title" content="Car Lease Calculator: Payment From Money Factor">
+<meta property="og:description" content="Calculate a lease payment from the price, residual value and money factor (or APR), split into depreciation and rent charges.">
+<meta property="og:url" content="https://carownercost.com/car-lease-calculator/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/site.css"><link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml"><link rel="icon" href="/assets/brand/icon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/assets/brand/icon-180.png">
+<style>:root{--brand:#0f766e;--font:system-ui, "Segoe UI", Roboto, Arial, sans-serif}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://carownercost.com/#org","name":"Car Owner Cost","url":"https://carownercost.com/","description":"Car Owner Cost is a free set of car finance and running-cost calculators that use EIA weekly gasoline prices, EIA state electricity prices and Tax Foundation 2026 sales tax rates."},{"@type":"WebApplication","name":"Car Lease Calculator","url":"https://carownercost.com/car-lease-calculator/","description":"Calculate a lease payment from the price, residual value and money factor (or APR), split into depreciation and rent charges.","applicationCategory":"FinanceApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://carownercost.com/#org"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Car Owner Cost","item":"https://carownercost.com/"},{"@type":"ListItem","position":2,"name":"Car Lease Calculator","item":"https://carownercost.com/car-lease-calculator/"}]}]}</script>
+
+<script src="/assets/car-data.js" defer></script>
+<script src="/assets/calculator.js" defer></script>
+<script src="/assets/calc-core.js" defer></script>
+</head>
+<body>
+<header class="site"><div class="wrap"><a class="logo" href="/" aria-label="Car Owner Cost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="626" height="238" loading="eager"></span></a><nav class="site"><a href="/car-payment-calculator/">Car Payment</a><a href="/gas-calculator/">Gas Cost</a><a href="/auto-refinance-calculator/">Auto Refinance</a><a href="/car-lease-calculator/">Car Lease</a></nav></div></header>
+<main><div class="wrap">
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Car Owner Cost</a> › Car Lease Calculator</nav>
+<h1>Car Lease Calculator</h1>
+<p class="answer">A <strong>car lease calculator</strong> splits your payment into depreciation and a rent charge. A $32,000 capitalized cost, 58% residual on a $36,000 MSRP, money factor 0.0025 and 36 months comes to $441.09 a month before tax. The rent charge is the money factor times cap cost plus residual (<a href="https://www.federalreserve.gov/pubs/leasing/resource/consider/ongoing_info6.htm" rel="nofollow noopener">Federal Reserve Board</a>).</p>
+<p class="updated">Updated <time datetime="2026-09-20">September 20, 2026</time> · By <a href="/about/">Car Owner Cost</a></p>
+<div id="calculator" data-calc="lease"><noscript>This tool needs JavaScript turned on.</noscript></div>
+<div class="ad-slot"><!-- Ad slot 1 (below the tool). Empty until the ad network is approved; reserve its height in CSS first. --></div>
+<h2>How is a lease payment calculated?</h2>
+<p>A lease payment has two parts. The depreciation part is the capitalized cost minus the residual value, divided by the months. The rent charge is the money factor multiplied by the capitalized cost plus the residual. Add them, then add any tax on the payment. The CFPB describes the payment the same way: depreciation plus rent charges, taxes and fees over the term (<a href="https://www.consumerfinance.gov/ask-cfpb/what-should-i-know-about-leasing-versus-buying-a-car-en-815/" rel="nofollow noopener">CFPB, reviewed September 12, 2023</a>).</p><p>Worked example, using the calculator defaults:</p><div class="table-wrap"><table class="data"><thead><tr><th>Line</th><th>Amount</th></tr></thead><tbody><tr><td>MSRP</td><td>$36,000</td></tr><tr><td>Residual value: 58% of MSRP</td><td>$20,880</td></tr><tr><td>Capitalized cost after down payment</td><td>$32,000</td></tr><tr><td>Depreciation: ($32,000 − $20,880) ÷ 36</td><td>$308.89</td></tr><tr><td>Rent charge: ($32,000 + $20,880) × 0.0025</td><td>$132.20</td></tr><tr><td><strong>Monthly payment before tax</strong></td><td><strong>$441.09</strong></td></tr></tbody></table></div><p>The residual percentage and money factor here are examples. Real ones come from the lease offer.</p><p>What the tool leaves out: acquisition and disposition fees unless you add them to the capitalized cost, and any sales tax your state charges on the payment. Enter the tax rate in the tax box; some states tax leases differently, so check with your DMV.</p><p>The capitalized cost is the number you can push on. The FTC suggests getting a written out-the-door price and comparing total costs rather than just the monthly payment (<a href="https://consumer.ftc.gov/articles/financing-or-leasing-car" rel="nofollow noopener">FTC, updated July 2022</a>). Every $1,000 cut from the cap cost removes about $27.78 of depreciation a month over 36 months, plus a little rent charge.</p>
+<h2>What is a money factor?</h2>
+<p>A money factor is the decimal a lessor uses to set the rent charge, the lease’s version of interest. The Federal Reserve Board says it “is not a lease rate” and can’t be converted to one just by moving the decimal point (<a href="https://www.federalreserve.gov/pubs/leasing/resource/consider/ongoing_info6.htm" rel="nofollow noopener">Federal Reserve Board</a>). Multiply it by the capitalized cost plus the residual to get the average monthly rent charge.</p><p>The Board’s own example: a money factor of 0.00354 on an adjusted capitalized cost of $18,800 and a residual of $12,350 gives 0.00354 × $31,150 = $110.27 a month (<a href="https://www.federalreserve.gov/pubs/leasing/resource/consider/ongoing_info6.htm" rel="nofollow noopener">Federal Reserve Board</a>).</p><p>To compare a lease with a loan, many shoppers use a rough conversion: money factor × 2,400 ≈ APR. This calculator uses that approximation when you choose to enter an APR, so 6% becomes a money factor of 0.0025. Treat it as a comparison aid, not the lessor’s official rate.</p><p>For a sense of scale, finance companies charged 6.3% on new-car loans in June 2026 (<a href="https://www.federalreserve.gov/releases/g19/current/default.htm" rel="nofollow noopener">Federal Reserve G.19, September 8, 2026</a>). If a lease’s money factor converts to far more than the loan rates you are offered, ask how it was set.</p>
+<h2>What is residual value?</h2>
+<p>Residual value is what the leasing company expects the car to be worth when the lease ends, and it is usually the price to buy the car at that point (<a href="https://www.consumerfinance.gov/ask-cfpb/what-should-i-know-about-leasing-versus-buying-a-car-en-815/" rel="nofollow noopener">CFPB, reviewed September 12, 2023</a>). A higher residual means less depreciation to pay for, so the monthly payment falls.</p><p>Residuals are usually quoted as a percentage of MSRP, not of the price you negotiated. That is why this calculator asks for both numbers. In the example, 58% of the $36,000 MSRP is $20,880 even though the negotiated cost is $32,000.</p><p>You normally can’t negotiate the residual, but it helps to know how sensitive the payment is to it. In the example, each percentage point of residual equals $360, which moves the depreciation part by $10 a month over 36 months and nudges the rent charge the other way by $0.90.</p><p>If you plan to buy the car at lease end, compare the residual with what similar cars sell for. Our <a href="/car-depreciation-calculator/">car depreciation calculator</a> helps you project a value at your own assumed rate.</p>
+<h2>Lease or buy?</h2>
+<p>Leasing usually means a lower monthly payment and a new car every few years; buying means your payments build ownership and you can drive as far as you like. The CFPB notes typical lease limits of 10,000 to 15,000 miles a year and fees for extra miles and wear (<a href="https://www.consumerfinance.gov/ask-cfpb/what-should-i-know-about-leasing-versus-buying-a-car-en-815/" rel="nofollow noopener">CFPB, reviewed September 12, 2023</a>).</p><ul><li><strong>Mileage.</strong> The FTC says most standard leases allow 15,000 miles a year or less (<a href="https://consumer.ftc.gov/articles/financing-or-leasing-car" rel="nofollow noopener">FTC, updated July 2022</a>).</li><li><strong>Ending early.</strong> Breaking a lease can bring a substantial early termination charge.</li><li><strong>Upkeep.</strong> You maintain and insure the car to the lessor’s standard.</li><li><strong>Term.</strong> Leases often run two to four years; auto loans three to seven, per the CFPB.</li></ul><p>A fair comparison looks at the total you pay over the same period. Multiply the lease payment by the months and add fees, then compare that with the loan payments over the same months minus the car’s expected value at the end. Run the loan side in the <a href="/car-payment-calculator/">car payment calculator</a>. Which comes out ahead depends on your miles, how long you keep cars and the offers in front of you.</p>
+<h2>Frequently asked questions</h2>
+<div class="faq">
+<details><summary>How much is a lease on a $45,000 car?</summary><p>It depends on the residual and money factor in the offer. As an illustration, with a $45,000 capitalized cost, a 58% residual, a 0.0025 money factor and 36 months, the payment is about $702.75 before tax: $525 of depreciation and $177.75 of rent charge. A lower negotiated price or higher residual reduces it.</p></details>
+<details><summary>What is the lease payment on a $30,000 car?</summary><p>Using the same example terms (58% residual, money factor 0.0025, 36 months, no money down), a $30,000 car leases for about $468.50 a month before tax. That is $350 of depreciation and $118.50 of rent charge. Enter the offer’s own residual and money factor for a real estimate.</p></details>
+<details><summary>What is the formula for calculating a lease?</summary><p>Monthly payment = (capitalized cost − residual) ÷ months + (capitalized cost + residual) × money factor, then add any sales tax on the payment. The first part pays for depreciation; the second is the rent charge, which the Federal Reserve Board compares to interest on a loan.</p></details>
+</div>
+<h2>Sources</h2>
+<ul class="sources">
+<li><a href="https://www.eia.gov/petroleum/gasdiesel/" rel="nofollow noopener">EIA — Gasoline and Diesel Fuel Update</a></li>
+<li><a href="https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a" rel="nofollow noopener">EIA — Electric Power Monthly, Table 5.6.A</a></li>
+<li><a href="https://taxfoundation.org/data/all/state/2026-sales-tax-rates-midyear/" rel="nofollow noopener">Tax Foundation — 2026 Sales Tax Rates, Midyear Update</a></li>
+<li><a href="https://www.federalreserve.gov/pubs/leasing/resource/consider/ongoing_info6.htm" rel="nofollow noopener">Federal Reserve Board — Vehicle Leasing: More Information about the Rent Charge</a></li>
+<li><a href="https://www.consumerfinance.gov/ask-cfpb/what-should-i-know-about-leasing-versus-buying-a-car-en-815/" rel="nofollow noopener">CFPB — What should I know about leasing versus buying a car? (reviewed September 12, 2023)</a></li>
+<li><a href="https://consumer.ftc.gov/articles/financing-or-leasing-car" rel="nofollow noopener">FTC — Financing or Leasing a Car (updated July 2022)</a></li>
+<li><a href="https://www.federalreserve.gov/releases/g19/current/default.htm" rel="nofollow noopener">Federal Reserve — Consumer Credit G.19 (release of September 8, 2026)</a></li>
+</ul>
+<h2>Related tools</h2>
+<ul>
+<li><a href="/car-payment-calculator/">Car Payment Calculator</a></li>
+<li><a href="/car-affordability-calculator/">Car Affordability Calculator</a></li>
+<li><a href="/auto-refinance-calculator/">Auto Refinance Calculator</a></li>
+<li><a href="/car-loan-payoff-calculator/">Car Loan Payoff Calculator</a></li>
+<li><a href="/gas-calculator/">Gas Cost Calculator</a></li>
+<li><a href="/car-sales-tax-calculator/">Car Sales Tax Calculator</a></li>
+<li><a href="/car-depreciation-calculator/">Car Depreciation Calculator</a></li>
+<li><a href="/mpg-calculator/">MPG Calculator</a></li>
+</ul>
+<p class="disclaimer">Estimates for information only — not financial advice. Your lender, dealer and state DMV decide the real numbers.</p>
+</div></main>
+<footer class="site"><div class="wrap">
+<p><a href="/car-payment-calculator/">Car Payment Calculator</a> <a href="/gas-calculator/">Gas Cost Calculator</a> <a href="/auto-refinance-calculator/">Auto Refinance Calculator</a> <a href="/car-lease-calculator/">Car Lease Calculator</a> <a href="/car-loan-payoff-calculator/">Car Loan Payoff Calculator</a> <a href="/car-affordability-calculator/">Car Affordability Calculator</a> <a href="/">All tools</a></p>
+<p><a href="/about/">About</a><a href="/methodology/">Methodology</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></p>
+<p>Estimates for information only — not financial advice. Your lender, dealer and state DMV decide the real numbers.</p>
+<p>© <span id="y"></span> Car Owner Cost</p>
+</div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>

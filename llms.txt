@@ -1,0 +1,24 @@
+# Car Owner Cost
+
+> Car Owner Cost is a free set of car finance and running-cost calculators that use EIA weekly gasoline prices, EIA state electricity prices and Tax Foundation 2026 sales tax rates.
+
+## Tools
+- [Car Payment Calculator](https://carownercost.com/car-payment-calculator/): Estimate your monthly car payment including your state’s sales tax, trade-in, down payment and fees, with total interest over the loan.
+- [Car Affordability Calculator](https://carownercost.com/car-affordability-calculator/): Turn your income and the share you want to spend into a car price you can afford, at your loan rate and term, including your down payment.
+- [Car Lease Calculator](https://carownercost.com/car-lease-calculator/): Calculate a lease payment from the price, residual value and money factor (or APR), split into depreciation and rent charges.
+- [Auto Refinance Calculator](https://carownercost.com/auto-refinance-calculator/): Compare your current car loan with a refinance offer: new monthly payment, total interest and whether fees or a longer term cancel the saving.
+- [Car Loan Payoff Calculator](https://carownercost.com/car-loan-payoff-calculator/): See how many months extra payments cut from your car loan and how much interest you save, with the balance left at the end of each year.
+- [Gas Cost Calculator](https://carownercost.com/gas-calculator/): Work out a road trip’s fuel cost and cost per person using this week’s EIA gas price for your region, or your own price at the pump.
+- [MPG Calculator](https://carownercost.com/mpg-calculator/): Calculate your real miles per gallon from a fill-up, your fuel cost per mile, and the equivalent in liters per 100 km.
+- [EV Charging Cost Calculator](https://carownercost.com/ev-charging-cost-calculator/): Compare a year of home EV charging with gas for the same miles, using your state’s EIA electricity price and this week’s gas price.
+- [Car Depreciation Calculator](https://carownercost.com/car-depreciation-calculator/): Estimate what your car will be worth each year you own it at the depreciation rate you choose, and how much value you lose in total.
+- [Car Sales Tax Calculator](https://carownercost.com/car-sales-tax-calculator/): Estimate sales tax on a car in your state from the 2026 state and average local rates, with or without a trade-in credit.
+
+## Guides and data
+- [Car Sales Tax by State (2026)](https://carownercost.com/car-sales-tax-by-state/): State and average local sales tax rates for all 50 states and DC in 2026, and the tax on a $30,000 car in each, with notes on vehicle rules.
+- [Gas Prices This Week by Region](https://carownercost.com/gas-prices/): This week’s average regular gasoline price for the U.S., each EIA region and the states EIA reports, with the cost of a 300-mile trip in each.
+
+## Sources
+- EIA — Gasoline and Diesel Fuel Update: https://www.eia.gov/petroleum/gasdiesel/
+- EIA — Electric Power Monthly, Table 5.6.A: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
+- Tax Foundation — 2026 Sales Tax Rates, Midyear Update: https://taxfoundation.org/data/all/state/2026-sales-tax-rates-midyear/
