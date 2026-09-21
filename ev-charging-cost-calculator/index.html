@@ -19,18 +19,22 @@
 <script src="/assets/calculator.js" defer></script>
 <script src="/assets/calc-core.js" defer></script>
 </head>
-<body>
-<header class="site"><div class="wrap"><a class="logo" href="/" aria-label="Car Owner Cost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="626" height="238" loading="eager" decoding="async"></span></a><nav class="site"><a href="/car-payment-calculator/">Car Payment</a><a href="/gas-calculator/">Gas Cost</a><a href="/auto-refinance-calculator/">Auto Refinance</a><a href="/car-lease-calculator/">Car Lease</a></nav></div></header>
-<main><div class="wrap">
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Car Owner Cost</a> › EV Charging Cost Calculator</nav>
-<div class="hero">
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site"><div class="wrap"><a class="logo" href="/" aria-label="Car Owner Cost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="608" height="138" loading="eager" decoding="async"></span></a><input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open menu"><label class="burger" for="nav-toggle" aria-hidden="true"><span></span></label><nav class="site" aria-label="Primary"><a href="/car-payment-calculator/">Car Payment</a><a href="/gas-calculator/">Gas Cost</a><a href="/auto-refinance-calculator/">Auto Refinance</a><a href="/car-lease-calculator/">Car Lease</a></nav></div></header>
+<main id="main">
+<div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Car Owner Cost</a> › EV Charging Cost Calculator</nav><details class="subnav"><summary><span>Browse all pages</span></summary><div class="subnav-grid"><div class="subnav-col"><p class="subnav-h">Calculators</p><ul><li><a href="/car-payment-calculator/">Car Payment Calculator</a></li><li><a href="/gas-calculator/">Gas Cost Calculator</a></li><li><a href="/auto-refinance-calculator/">Auto Refinance Calculator</a></li><li><a href="/car-lease-calculator/">Car Lease Calculator</a></li><li><a href="/car-loan-payoff-calculator/">Car Loan Payoff Calculator</a></li><li><a href="/car-affordability-calculator/">Car Affordability Calculator</a></li><li><a href="/">All tools</a></li></ul></div></div></details></div>
+<section class="hero-band"><div class="hero">
 <div>
+<p class="eyebrow">Car Owner Cost <span aria-hidden="true">&middot;</span> Free calculator</p>
 <h1>EV Charging Cost Calculator</h1>
 <p class="answer">An <strong>EV charging cost calculator</strong> multiplies the electricity your car uses by your price per kWh. Driving 12,000 miles a year at 30 kWh per 100 miles takes 3,600 kWh; at the June 2026 U.S. residential average of 18.34¢ per kWh (<a href="https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a" rel="nofollow noopener">EIA</a>), home charging costs about $660 a year.</p>
 <p class="updated">Updated <time datetime="2026-09-20">September 20, 2026</time> · By <a href="/about/">Car Owner Cost</a></p>
+<div class="hero-cta"><a class="btn-hero" href="#calculator">Open the calculator</a></div><ul class="hero-chips"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Updated September 2026</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Free &mdash; no sign-up</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Sources cited</li></ul>
 </div>
 <figure class="hero-photo"><img src="/assets/img/p-ev-charging-cost-calculator.jpg" alt="Mechanics working in an automotive workshop, repairing cars and performing maintenance." width="1000" height="600" loading="eager" decoding="async" fetchpriority="high"></figure>
-</div>
+</div></section>
+<div class="wrap">
+
 <div id="calculator" data-calc="evCost"><noscript>This tool needs JavaScript turned on.</noscript></div>
 <div class="ad-slot"><!-- Ad slot 1 (below the tool). Empty until the ad network is approved; reserve its height in CSS first. --></div>
 
@@ -46,11 +50,13 @@
 
 <section class="sec">
 <h2>What does kWh per 100 miles mean?</h2>
+<figure class="sec-photo"><img src="/assets/img/s-ev-charging-cost-calculator-2.jpg" alt="Elegant silver luxury car parked in a city setting, showcasing sleek design and modern style." width="940" height="627" loading="lazy" decoding="async"></figure>
 <p>kWh per 100 miles is how much electricity an EV needs to travel 100 miles, and it appears on the EPA window sticker. Lower is better: a car rated at 25 kWh/100 mi costs less to run than one rated at 35. The <a href="https://www.fueleconomy.gov/feg/label/learn-more-electric-label.shtml" rel="nofollow noopener">fueleconomy.gov label guide</a> describes it as the kilowatt-hours the vehicle would use to go 100 miles.</p><p>EPA says its MPGe values include charging losses from the charging cable and the car’s on-board charger, which moves the measurement “to the outlet in the wall” (<a href="https://www.epa.gov/greenvehicles/fuel-economy-and-ev-range-testing" rel="nofollow noopener">EPA, updated July 1, 2026</a>). EPA also adjusts its EV test results to reflect air conditioning, cold weather and high-speed, aggressive driving. The calculator adds no further loss on top of the kWh figure you enter.</p><p>Cost per mile = kWh per 100 miles ÷ 100 × price per kWh. At 30 kWh/100 mi and 18.34¢, that is 5.5 cents a mile. The <a href="https://afdc.energy.gov/fuels/electricity-charging-home" rel="nofollow noopener">AFDC</a> gives a similar example: 27 kWh per 100 miles at 10.7¢ is about 3 cents a mile.</p>
 </section>
 
 <section class="sec">
-<h2>Public fast charging vs home charging</h2><figure class="sec-photo"><img src="/assets/img/s-ev-charging-cost-calculator-2.jpg" alt="A collection of modified sports cars on a mechanical garage lift in compton, ca." width="900" height="520" loading="lazy" decoding="async"></figure>
+<h2>Public fast charging vs home charging</h2>
+<figure class="sec-photo"><img src="/assets/img/sec-ev-charging-cost-calculator-3.jpg" alt="A detailed view of a car&#x27;s interior with hands on the steering wheel, showcasing modern technology." width="940" height="627" loading="lazy" decoding="async"></figure>
 <p>Public DC fast charging usually costs far more per kWh than charging at home. Paren’s Q1 2026 industry report put the average U.S. fast-charging price at $0.53 per kWh excluding free chargers, and $0.49 including them, as reported by <a href="https://evchargingstations.com/chargingnews/parens-q1-2026-report/" rel="nofollow noopener">EVChargingStations.com on April 23, 2026</a>. The June 2026 U.S. home average was 18.34¢.</p><p>At $0.53, the 3,600 kWh in the example would cost $1,908 a year, more than the $1,727.60 for a 30 MPG gas car at $4.319. Most drivers mix the two, so real costs usually land somewhere in between.</p><p>The calculator covers home charging only. To estimate a mix, enter a blended price: 80% of charging at home at 18.34¢ and 20% at $0.53 averages about 25.3¢ per kWh.</p><p>Fast-charging prices vary from station to station, so check the price shown on the charger or in its app before you plug in.</p>
 </section>
 
@@ -64,7 +70,7 @@
 </div>
 </section>
 
-<section class="sec">
+<div class="endmatter"><section class="sec is-short">
 <h2>Sources</h2><figure class="sec-photo"><img src="/assets/img/x-ev-charging-cost-calculator-3.jpg" alt="Black and white photo of a row of mini cooper cars parked outdoors in a car dealership." width="900" height="520" loading="lazy" decoding="async"></figure>
 <ul class="sources">
 <li><a href="https://www.eia.gov/petroleum/gasdiesel/" rel="nofollow noopener">EIA — Gasoline and Diesel Fuel Update</a></li>
@@ -78,7 +84,7 @@
 </ul>
 </section>
 
-<section class="sec">
+<section class="sec is-short">
 <h2>Related tools</h2>
 <ul>
 <li><a href="/gas-calculator/">Gas Cost Calculator</a></li>
@@ -91,10 +97,10 @@
 <li><a href="/car-loan-payoff-calculator/">Car Loan Payoff Calculator</a></li>
 </ul>
 <p class="disclaimer">Estimates for information only — not financial advice. Your lender, dealer and state DMV decide the real numbers.</p>
-</section>
+</section></div>
 </div></main>
 <footer class="site"><div class="wrap">
-<div class="f-brand"><a class="footer-brand" href="/" aria-label="Car Owner Cost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="626" height="238" loading="lazy" decoding="async"></span></a></div>
+<div class="f-brand"><a class="footer-brand" href="/" aria-label="Car Owner Cost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="608" height="138" loading="lazy" decoding="async"></span></a></div>
 <nav class="f-col" aria-label="Calculators"><h3>Calculators</h3><ul><li><a href="/car-payment-calculator/">Car Payment Calculator</a></li><li><a href="/gas-calculator/">Gas Cost Calculator</a></li><li><a href="/auto-refinance-calculator/">Auto Refinance Calculator</a></li><li><a href="/car-lease-calculator/">Car Lease Calculator</a></li><li><a href="/car-loan-payoff-calculator/">Car Loan Payoff Calculator</a></li><li><a href="/car-affordability-calculator/">Car Affordability Calculator</a></li><li><a href="/">All tools</a></li></ul></nav>
 <nav class="f-col" aria-label="Company"><h3>Company</h3><ul><li><a href="/about/">About</a></li><li><a href="/methodology/">Methodology</a></li><li><a href="/contact/">Contact</a></li></ul></nav>
 <nav class="f-col" aria-label="Legal"><h3>Legal</h3><ul><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li></ul></nav>
